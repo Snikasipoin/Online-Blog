@@ -85,3 +85,12 @@
   width: 100%;
   max-width: 800px;
 }
+
+@media (max-width: 1000px) {
+  .article-card {
+    width: 80%;
+  }
+  .create-article {
+    width: auto;
+  }
+}

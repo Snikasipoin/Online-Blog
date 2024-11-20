@@ -26,7 +26,6 @@ function CreateArticle({ onArticleCreated }) {
     }
   };
 
-  // Обработчик удаления тега
   const handleTagRemove = (tag) => {
     setTags((prevTags) => prevTags.filter((t) => t !== tag));
   };
@@ -40,18 +39,16 @@ function CreateArticle({ onArticleCreated }) {
     const newArticle = {
       id: articles.length + 1,
       title,
-      previewImage: coverImage || 'https://via.placeholder.com/150', // Обложка по умолчанию
-      creationDate: currentDate, // Дата из состояния
+      previewImage: coverImage || 'https://via.placeholder.com/150',
+      creationDate: currentDate,
       author,
       description,
       fullText: content,
       tags,
     };
 
-    // Добавляем статью в массив
     articles.push(newArticle);
 
-    // Вызываем обратный вызов после создания
     if (onArticleCreated) onArticleCreated(newArticle);
 
     alert('Статья успешно добавлена!');

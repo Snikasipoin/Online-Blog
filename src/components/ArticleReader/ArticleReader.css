@@ -50,3 +50,18 @@
   text-align: left;
   padding: 2%;
 }
+@media (max-width: 600px) {
+  .article-reader {
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+  }
+  .article-reader img {
+    min-height: 200px;
+  }
+  .article-reader > .article-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

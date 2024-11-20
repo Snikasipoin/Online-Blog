@@ -2,8 +2,8 @@ function HeaderTitle() {
   return (
     <>
       <div className="title">
-        <h1>Inspiration for travel by real people</h1>
-        <h3>Book smart, travel simple</h3>
+        <h1>Мир Статей</h1>
+        <h3>Разнообразие тем и уникальные взгляды — читайте наши статьи!</h3>
       </div>
     </>
   );

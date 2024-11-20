@@ -6,7 +6,7 @@ import CreateArticle from './components/CreateArticle/CreateArticle';
 import { useState } from 'react';
 
 function App() {
-  const [activeContent, setActiveContent] = useState('articles'); // Управление отображением контента
+  const [activeContent, setActiveContent] = useState('articles');
 
   const handleArticleCreated = () => {
     setActiveContent('articles');

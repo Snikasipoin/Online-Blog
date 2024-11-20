@@ -29,3 +29,20 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+@media (max-width: 1000px) {
+  .rightRow {
+    max-width: 80%;
+  }
+  .tagsWrapepr {
+    max-height: 230px;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 600px) {
+  .contentWrapper {
+    flex-flow: column-reverse;
+    align-items: center;
+    gap: 25px;
+  }
+}
