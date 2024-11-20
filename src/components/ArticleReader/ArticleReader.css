@@ -1,0 +1,52 @@
+.article-reader {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2%;
+  background-color: white;
+  border-radius: 8px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-left: 10px rgb(190, 3, 3) solid;
+}
+.article-reader > h1 {
+  width: 100%;
+  color: rgb(18, 20, 22);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.article-reader > .article-info {
+  gap: 10px;
+}
+.article-reader > button {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  color: rgb(18, 20, 22);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: border-bottom 3s;
+  width: 160px;
+}
+.article-reader img {
+  object-fit: cover;
+  width: 100%;
+  min-height: 450px;
+  border-radius: 25px;
+}
+.article-full-text {
+  width: 100%;
+  text-align: left;
+  padding: 2%;
+}
